@@ -4,45 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crypticcss Electronic Repair</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
-            text-align: center;
-            padding: 20px;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+            margin: 0;
+            padding: 0;
         }
 
         .container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-            max-width: 600px;
+            max-width: 900px;
             margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
 
         h1 {
-            color: #1a73e8;
+            color: #007bff;
+            font-size: 32px;
+            text-align: center;
         }
 
         p {
             font-size: 18px;
             line-height: 1.6;
+            margin-bottom: 20px;
+            color: #6c757d;
+        }
+
+        .photo-section {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .photo-section img {
+            width: 48%;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            opacity: 0.9;
+            transition: opacity 0.3s ease;
+        }
+
+        .photo-section img:hover {
+            opacity: 1;
         }
 
         .contact-info {
+            text-align: center;
             margin-top: 20px;
+        }
+
+        .contact-info p {
             font-size: 18px;
+            margin-bottom: 10px;
         }
 
         .contact-info a {
-            color: #1a73e8;
+            color: #007bff;
             text-decoration: none;
         }
 
         .contact-info a:hover {
             text-decoration: underline;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 14px;
+            color: #6c757d;
         }
     </style>
 </head>
@@ -50,22 +99,28 @@
 
     <div class="container">
         <h1>Crypticcss Electronic Repair</h1>
-        <p>
-            Hi there! I'm Cryptic, a passionate electronics enthusiast with years of experience helping friends and family
-            fix their devices. I understand how frustrating it can be when something breaks, and that's why I'm here to offer
-            friendly, no-pressure help to get you back up and running.
-        </p>
-        <p>
-            Unlike big businesses, my goal is to help out in a more casual, personalized way, making it easier for you to fix
-            your electronics without all the hassle. Whether you're dealing with a broken computer, phone, or any other device,
-            I’m here to help!
-        </p>
+
+        <!-- Filler text for you to type over -->
+        <p>[Insert a brief introduction about your services. E.g., "I offer professional electronic repair services with years of experience helping people fix their devices."]</p>
+        <p>[Insert details about your approach and passion for helping people with electronics. E.g., "I specialize in a wide range of electronics, from smartphones to gaming consoles."]</p>
+
+        <div class="photo-section">
+            <!-- Add your photos here -->
+            <img src="images.png" alt="Repair example 1">
+            <img src="photo2.jpg" alt="Repair example 2">
+        </div>
+
         <div class="contact-info">
-            <p>Feel free to reach out to me at:</p>
+            <p>Have a device that needs fixing? Reach out today!</p>
+            <a href="mailto:your-email@gmail.com" class="button">Contact Me</a>
             <p>Email: <a href="mailto:your-email@gmail.com">your-email@gmail.com</a></p>
             <p>Phone: <a href="tel:+1234567890">+123-456-7890</a></p>
         </div>
     </div>
+
+    <footer>
+        &copy; 2024 Crypticcss Electronic Repair. All rights reserved.
+    </footer>
 
 </body>
 </html>
